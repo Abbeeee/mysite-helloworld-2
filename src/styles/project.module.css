@@ -1,0 +1,35 @@
+.grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 20px;
+}
+.mainImage {
+  margin: 20px 0;
+}
+.secondaryImage, .secondaryImage img {
+  border: 3px solid var(--main-black);
+  margin: 10px;
+  width: 200px;
+}
+
+main {
+  padding: 15px;
+  border: 3px solid var(--main-black);
+}
+aside {
+  padding: 15px;
+  border: 3px solid var(--main-black);
+  text-align: center;
+}
+ul {
+  list-style: none;
+}
+li {
+  margin: 10px 0;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+h2 {
+  font-size: 3.5em;
+  text-decoration: underline;
+}

@@ -1,0 +1,15 @@
+.projectsGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 80px;
+  margin: 50px 0 100px;
+  text-align: center;
+}
+.projectsGrid h3 {
+  margin: 20px auto 0px;
+  font-weight: 500;
+}
+.projectsGrid p {
+  color: var(--main-grey);
+  margin-top: 4px;
+}
